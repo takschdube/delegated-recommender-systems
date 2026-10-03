@@ -34,6 +34,7 @@ Delegate papers carry an approach tag: `Learning-based` (AI methods), `Analytica
 - [Autonomous Information Seeking: A Roadmap for Agentic Recommender Systems](https://arxiv.org/abs/2607.04433). Lin et al. *arXiv 2026*.
 - [From Recommendations to Delegation: A Systematic Review Mapping Agentic AI in E-Commerce and Its Consumer Effects](https://doi.org/10.3390/info17030222). Balaskas. *Information (MDPI) 2026*.
 - [Optimizing Visibility in Generative Engines: A Critical Survey of Generative Engine Optimization (2023-2026)](https://arxiv.org/abs/2607.14035). Martínez. *arXiv 2026*.
+- [Reproducibility in Recommender Systems: A Survey](https://arxiv.org/abs/2607.26074). Said and Bellogin. *arXiv 2026*.
 - [A Survey on Generative Recommendation: Data, Model, and Tasks](https://arxiv.org/abs/2510.27157). Hou et al. *AI Open 2025*.
 - [A Survey on LLM-powered Agents for Recommender Systems](https://arxiv.org/abs/2502.10050). Peng et al. *EMNLP Findings 2025*.
 - [Agentic Markets: Game Dynamics and Equilibrium in Markets with Learning Agents](https://arxiv.org/abs/2506.18571). Bichler et al. *arXiv 2025*.
@@ -107,8 +108,10 @@ Delegate papers carry an approach tag: `Learning-based` (AI methods), `Analytica
 - [A Position Paper on Recommender Systems in the Era of Autonomous Agents](https://arxiv.org/abs/2607.24822). Sun. *RecSys 2026*. `Position` Defines human, agent, and platform interactions for recommendation with autonomous agents.
 - [Mixture-of-Experts Knowledge Graph Retrieval-Augmented Generation for Multi-Agent LLM-based Recommendation](https://arxiv.org/abs/2605.28175). Wang et al. *KDD 2026*. `Learning-based` Multi-agent LLM recommender with mixture-of-experts knowledge-graph retrieval.
 - [The User Asks, Platforms Compete: How Agentic Recommendation Markets Take Shape](https://arxiv.org/abs/2607.25253). Hong et al. *arXiv 2026*. `Empirical` Platforms compete for user agents in an LLM testbed of recommendation markets.
+- [Why Does AI Platform Competition Diverge? A Dynamic Analysis of Adoption, Recommendation Mechanisms, and Price Feedback](https://doi.org/10.3390/systems14080945). Yan et al. *Systems 2026*. `Analytical` Dynamic model of AI adoption, recommendation amplification, price feedback, and platform competition.
 - [Who Are We Recommending To? Recommender Systems in the Agentic Web](https://arxiv.org/abs/2609.11945). Abdollahpouri et al. *RecSys 2026*. `Position` Recommendation when agents are the audience; proposes a delegation spectrum.
 - [Envisioning Recommendations on an LLM-Based Agent Platform](https://doi.org/10.1145/3699952). Zhang et al. *CACM 2025*. `Position` Envisions items and recommenders as agents on an LLM-based agent platform.
+- [Decoupled Recommender Systems: Exploring Alternative Recommender Ecosystem Designs](https://arxiv.org/abs/2503.03606). Buhayh et al. *arXiv 2025*. `Analytical` Models recommender ecosystems in which recommendation algorithms are decoupled from platforms and compares utility across consumers, providers, and platforms.
 - [Modeling Recommender Ecosystems: Research Challenges at the Intersection of Mechanism Design, Reinforcement Learning and Generative Models](https://arxiv.org/abs/2309.06375). Boutilier et al. *arXiv 2023*. `Position` Research agenda for recommender ecosystems through mechanism design and reinforcement learning.
 
 ### III.5 Market-level effects
@@ -202,6 +205,8 @@ Delegate papers carry an approach tag: `Learning-based` (AI methods), `Analytica
 ### I.1 Graph-based collaborative filtering
 
 - [Combinatorial Optimization Perspective based Framework for Multi-behavior Recommendation](https://arxiv.org/abs/2502.02232). Zhai et al. *KDD 2025*.
+- [Your Graph Recommenders are Provably Doing Graph Contrastive Learning](https://doi.org/10.1145/3711896.3737182). Yang et al. *KDD 2025*.
+- [Enhancing Graph Contrastive Learning with Reliable and Informative Augmentation for Recommendation](https://doi.org/10.1145/3690624.3709214). Zheng et al. *KDD 2025*.
 - [GPFedRec: Graph-Guided Personalization for Federated Recommendation](https://arxiv.org/abs/2305.07866). Zhang et al. *KDD 2024*.
 - [Unifying Graph Convolution and Contrastive Learning in Collaborative Filtering](https://arxiv.org/abs/2406.13996). Wu et al. *KDD 2024*.
 - [Are Graph Augmentations Necessary?: Simple Graph Contrastive Learning for Recommendation](https://arxiv.org/abs/2112.08679). Yu et al. *SIGIR 2022*.
@@ -212,6 +217,7 @@ Delegate papers carry an approach tag: `Learning-based` (AI methods), `Analytica
 ### I.2 Noise, bias, and the long tail
 
 - [SAGERec: Sampling and Gating for Enhanced Long-Tail Item Recommendations](https://doi.org/10.1145/3773966.3778004). Alshabanah et al. *WSDM 2026*.
+- [SAGE: Global Semantic Alignment with LLMs for Long-Tail Sequential Recommendation](https://doi.org/10.1145/3774904.3792456). Wang et al. *WWW 2026*.
 - [Teach Me How to Denoise: A Universal Framework for Denoising Multi-modal Recommender Systems via Guided Calibration](https://arxiv.org/abs/2504.14214). Li et al. *WSDM 2025*.
 - [Double Correction Framework for Denoising Recommendation](https://arxiv.org/abs/2405.11272). He et al. *KDD 2024*.
 - [Efficient Bi-Level Optimization for Recommendation Denoising](https://arxiv.org/abs/2210.10321). Wang et al. *KDD 2023*.
@@ -220,12 +226,15 @@ Delegate papers carry an approach tag: `Learning-based` (AI methods), `Analytica
 ### I.3 Transfer and two-sided settings
 
 - [Review-Based Hyperbolic Cross-Domain Recommendation](https://arxiv.org/abs/2403.20298). Choi et al. *WSDM 2025*.
+- [Exploring Preference-Guided Diffusion Model for Cross-Domain Recommendation](https://doi.org/10.1145/3690624.3709220). Li et al. *KDD 2025*.
+- [Measure Domain's Gap: A Similar Domain Selection Principle for Multi-Domain Recommendation](https://doi.org/10.1145/3711896.3737043). Wen et al. *KDD 2025*.
 - [Mitigating Negative Transfer in Cross-Domain Recommendation via Knowledge Transferability Enhancement](https://doi.org/10.1145/3637528.3671799). Song et al. *KDD 2024*.
 - [Revisiting Reciprocal Recommender Systems: Metrics, Formulation, and Method](https://arxiv.org/abs/2408.09748). Yang et al. *KDD 2024*.
 
 ### I.4 Sequences and long-term objectives
 
 - [Explicit and Implicit Modeling via Dual-Path Transformer for Behavior Set-informed Sequential Recommendation](https://doi.org/10.1145/3637528.3671755). Chen et al. *KDD 2024*.
+- [Retention Depolarization in Recommender System](https://doi.org/10.1145/3589334.3645485). Zhang et al. *WWW 2024*.
 - [PrefRec: Recommender Systems with Human Preferences for Reinforcing Long-term User Engagement](https://arxiv.org/abs/2212.02779). Xue et al. *KDD 2023*.
 
 ## Benchmarks, sandboxes, and evaluation
@@ -236,12 +245,18 @@ Magentic Marketplace, RecBench+, and E-GEO are listed under Delegate.
 
 - [Evaluation of Agents under Simulated AI Marketplace Dynamics](https://arxiv.org/abs/2604.14256). Kim et al. *SIGIR 2026*.
 - [NaiAD: Initiate Data-Driven Research for LLM Advertising](https://arxiv.org/abs/2605.09918). Zhang et al. *arXiv 2026*.
+- [AlignUSER: Human-Aligned LLM Agents via World Models for Recommender System Evaluation](https://aclanthology.org/2026.acl-long.747/). Bougie et al. *ACL 2026*.
 - [User Behavior Simulation with Large Language Model-based Agents](https://arxiv.org/abs/2306.02552). Wang et al. *ACM TOIS 2025*.
+- [Yambda-5B -- A Large-Scale Multi-Modal Dataset for Ranking and Retrieval](https://arxiv.org/abs/2505.22238). Ploshkin et al. *arXiv 2025*.
 - [On Generative Agents in Recommendation](https://arxiv.org/abs/2310.10108). Zhang et al. *SIGIR 2024*.
 
 ### Evaluation pitfalls
 
 - [Diffusion Recommender Models and the Illusion of Progress: A Concerning Study of Reproducibility and a Conceptual Mismatch](https://arxiv.org/abs/2505.09364). Benigni et al. *ACM TORS 2026*.
+- [Improving Methodological Standards in Recommender Systems Offline Evaluation](https://doi.org/10.1145/3800587). Jannach and Chen. *ACM TORS 2026*.
+- [On the Reliability of Sampling Strategies in Offline Recommender Evaluation](https://doi.org/10.1145/3705328.3748086). Pereira et al. *RecSys 2025*.
+- [Time to Split: Exploring Data Splitting Strategies for Offline Evaluation of Sequential Recommenders](https://doi.org/10.1145/3705328.3748164). Gusak et al. *RecSys 2025*.
+- [Don't Get Ahead of Yourself: A Critical Study on Data Leakage in Offline Evaluation of Sequential Recommenders](https://doi.org/10.1145/3705328.3759329). Le et al. *RecSys 2025*.
 - [Do LLMs Memorize Recommendation Datasets? A Preliminary Study on MovieLens-1M](https://arxiv.org/abs/2505.10212). Palma et al. *SIGIR 2025*.
 - [On Sampled Metrics for Item Recommendation](https://doi.org/10.1145/3394486.3403226). Krichene and Rendle. *KDD 2020*.
 - [Are we really making much progress? A worrying analysis of recent neural recommendation approaches](https://arxiv.org/abs/1907.06902). Dacrema et al. *RecSys 2019*.
